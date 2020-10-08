@@ -4,7 +4,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import SimpleCardForm from './SimpleCardForm';
 import SplitCardForm from './SplitCardForm';
 
-const stripePromise = loadStripe('pk_test_51HZNkQBEspuFA8V0SJHuv7yto9ESLRDjC4nh8hJyPhFQJMFjG7zCwnadzx0GcsYnY0BJHetUlxz3e7EspZuIkuvQ00uENxpGaP');
+const stripePromise = loadStripe('pk_test_51HZg6wIUbJyrlZzJWDWqoYRLO5G1txt94wXvPz2sURP3VGCST6pp9tBZhl1xQG0rIgRWdf7rN37bt9PDjKvyuInK00NMC5oeUY');
 
 const ProcessPayment = ({handlePayment}) => {
     return (

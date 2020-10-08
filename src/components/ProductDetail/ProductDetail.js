@@ -9,7 +9,7 @@ const ProductDetail = () => {
     document.title ="Product Detail";
     
     useEffect(() => {
-        fetch('http://localhost:5000/product/'+ productKey)
+        fetch('https://sleepy-forest-52700.herokuapp.com/product/'+ productKey)
         .then(res => res.json())
         .then(data => {
             setProduct(data)

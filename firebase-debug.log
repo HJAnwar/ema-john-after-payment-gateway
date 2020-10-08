@@ -1,0 +1,112 @@
+[debug] [2020-10-08T12:56:57.234Z] ----------------------------------------------------------------------
+[debug] [2020-10-08T12:56:57.238Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-08T12:56:57.238Z] CLI Version:   8.12.0
+[debug] [2020-10-08T12:56:57.238Z] Platform:      win32
+[debug] [2020-10-08T12:56:57.238Z] Node Version:  v12.18.1
+[debug] [2020-10-08T12:56:57.241Z] Time:          Thu Oct 08 2020 05:56:57 GMT-0700 (Pacific Daylight Time)
+[debug] [2020-10-08T12:56:57.241Z] ----------------------------------------------------------------------
+[debug] [2020-10-08T12:56:57.241Z] 
+[debug] [2020-10-08T12:56:57.252Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-08T12:56:57.254Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\web-development\ema-john-after-payment-gateway-master
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using fire-auth2. 
+[debug] [2020-10-08T12:57:13.595Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fire-auth2  
+ 
+[debug] [2020-10-08T12:57:14.364Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Thu, 08 Oct 2020 12:57:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-08T12:57:14.365Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-10-08T12:57:14.369Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-10-08T12:57:14.775Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project fire-auth2. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-10-08T13:04:20.501Z] ----------------------------------------------------------------------
+[debug] [2020-10-08T13:04:20.508Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-08T13:04:20.508Z] CLI Version:   8.12.0
+[debug] [2020-10-08T13:04:20.509Z] Platform:      win32
+[debug] [2020-10-08T13:04:20.509Z] Node Version:  v12.18.1
+[debug] [2020-10-08T13:04:20.511Z] Time:          Thu Oct 08 2020 06:04:20 GMT-0700 (Pacific Daylight Time)
+[debug] [2020-10-08T13:04:20.511Z] ----------------------------------------------------------------------
+[debug] [2020-10-08T13:04:20.511Z] 
+[debug] [2020-10-08T13:04:20.526Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-08T13:04:20.527Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\web-development\ema-john-after-payment-gateway-master
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using fire-auth2. 
+[debug] [2020-10-08T13:04:34.023Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fire-auth2  
+ 
+[debug] [2020-10-08T13:04:34.870Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Thu, 08 Oct 2020 13:04:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-08T13:04:34.871Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-10-08T13:04:34.876Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-10-08T13:04:35.307Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\anwar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project fire-auth2. Please make sure the project exists and your account has permission to access it.
