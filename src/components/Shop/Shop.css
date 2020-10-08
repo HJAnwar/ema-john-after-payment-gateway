@@ -1,0 +1,20 @@
+.twin-container{
+    display: flex;
+}
+.product-container{
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-right: 1px solid lightgray;
+}
+.search-product{
+    width: 100%;
+   background-color: black;
+   height: 40px;
+}
+.search-product input{
+    margin-left: 10px;
+    width: 50%;
+    outline: none;
+    border: none;
+}
